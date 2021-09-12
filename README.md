@@ -1,0 +1,1 @@
+NODE_ENV=production npx tailwindcss -i ./src/style.css -o ./dist/style.css
