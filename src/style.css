@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn_primary {
+    @apply bg-bootstrap_primary text-white font-bold py-2 px-3 rounded cursor-pointer tracking-widest hover:bg-yellow-400;
+}
+.btn_secondary {
+    @apply bg-bootstrap_secondary text-white font-bold py-2 px-3 rounded cursor-pointer tracking-widest hover:bg-yellow-400;
+}
+.btn_success {
+    @apply bg-bootstrap_success text-white font-bold py-2 px-3 rounded cursor-pointer tracking-widest hover:bg-yellow-400;
+}
+.btn_danger {
+    @apply bg-bootstrap_danger text-white font-bold py-2 px-3 rounded cursor-pointer tracking-widest hover:bg-yellow-400;
+}
+.btn_info {
+    @apply bg-bootstrap_info text-white font-bold py-2 px-3 rounded cursor-pointer tracking-widest hover:bg-yellow-400;
+}

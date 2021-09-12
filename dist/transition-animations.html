@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Start Here -->
+<button class="btn_primary mx-1 transform ease-in duration-300">確定</button>
+
+
+<button class="btn_secondary mx-1 transform ease-out duration-700 hover:scale-125 py-3 px-6"> hover 確定</button>
+
+
+<button class="btn_success mx-1">
+    <svg class="animate-spin h-5 w-5 text-white inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+    </svg>                            
+     loading 確定</button>
+
+
+<div class="relative inline-flex rounded-md shadow-sm mx-1">
+    <button class="btn_danger">animate-ping 確定</button>
+    <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-yellow-500"></span>
+    </span>
+</div>
+
+<div class="relative inline-flex rounded-md shadow-sm mx-1">
+    <button class="inline-flex items-center px-4 py-2 border border-purple-400 text-base leading-6 font-medium rounded-md text-purple-800 bg-white hover:text-purple-700 focus:border-purple-300 transition ease-in-out duration-150">animate-ping 確定</button>
+    <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
+    </span>
+</div>
+
+
+<h1 class="text-gray-600 text-xl">animate-pulse</h1>
+
+<div class="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
+    <div class="animate-pulse flex space-x-4">
+      <div class="rounded-full bg-blue-400 h-12 w-12"></div>
+      <div class="flex-1 space-y-4 py-1">
+        <div class="h-4 bg-blue-400 rounded w-3/4"></div>
+        <div class="space-y-2">
+          <div class="h-4 bg-blue-400 rounded"></div>
+          <div class="h-4 bg-blue-400 rounded w-5/6"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <h1 class="text-gray-600 text-xl">animate-bounce</h1>
+
+
+  
+  <svg class="animate-bounce w-6 h-6 text-amber-900" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+  </svg>
+<!-- End Here -->
+
+    
+</body>
+
+</html>
