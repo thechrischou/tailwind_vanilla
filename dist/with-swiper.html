@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Start Here -->
+
+    <div class="bg-white">
+        <div class="py-16 sm:py-24 lg:max-w-7xl lg:mx-auto lg:px-8 relative">
+            <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Trending products</h2>
+                <a href="#" class="hidden sm:block text-sm font-semibold text-indigo-600 hover:text-indigo-500">See
+                    everything<span aria-hidden="true"> &rarr;</span></a>
+            </div>
+            <!-- Slider main container -->
+            <div class="flex items-center">
+                <div class="swiper mt-6 ">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide">
+                            <div class="group relative">
+                                <div
+                                    class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg"
+                                        alt="Hand stitched, orange leather long wallet."
+                                        class="w-full h-full object-center object-cover">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700 hover:text-purple-600">
+                                    <a href="#">
+                                        <span class="absolute inset-0"></span>
+                                        Leather Long Wallet
+                                    </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500 ">Natural</p>
+                                <p class="mt-1 text-sm font-medium text-gray-900">$75</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="group relative">
+                                <div
+                                    class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg"
+                                        alt="Hand stitched, orange leather long wallet."
+                                        class="w-full h-full object-center object-cover">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700 hover:text-purple-600">
+                                    <a href="#">
+                                        <span class="absolute inset-0"></span>
+                                        Leather Long Wallet
+                                    </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500 ">Natural</p>
+                                <p class="mt-1 text-sm font-medium text-gray-900 ">$75</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="group relative">
+                                <div
+                                    class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
+                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg"
+                                        alt="Hand stitched, orange leather long wallet."
+                                        class="w-full h-full object-center object-cover">
+                                </div>
+                                <h3 class="mt-4 text-sm text-gray-700 hover:text-purple-600">
+                                    <a href="#">
+                                        <span class="absolute inset-0"></span>
+                                        Leather Long Wallet
+                                    </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500">Natural</p>
+                                <p class="mt-1 text-sm font-medium text-gray-900">$75</p>
+                            </div>
+                        </div>
+                        <!-- More products... -->
+                    </div>
+                </div>
+
+
+                <!-- If we need navigation buttons -->
+                <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
+                    <div class="flex justify-center items-center swiper-button-prev-customized z-50 absolute  left-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg  border border-gray-100">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </div>
+                    <div class="flex justify-center items-center swiper-button-next-customized z-50 absolute  right-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- End Here -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                }
+            },
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next-customized',
+                prevEl: '.swiper-button-prev-customized',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
+</body>
+
+</html>
