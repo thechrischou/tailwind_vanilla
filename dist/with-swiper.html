@@ -12,8 +12,9 @@
 
     <!-- Start Here -->
 
-    <div class="bg-white">
-        <div class="py-16 sm:py-24 lg:max-w-7xl lg:mx-auto lg:px-8 relative">
+    <!-- Event Banner -->
+    <section class="event">
+        <div class="py-4 lg:max-w-7xl lg:mx-auto lg:px-8 relative">
             <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
                 <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Trending products</h2>
                 <a href="#" class="hidden sm:block text-sm font-semibold text-indigo-600 hover:text-indigo-500">See
@@ -21,62 +22,38 @@
             </div>
             <!-- Slider main container -->
             <div class="flex items-center">
-                <div class="swiper mt-6 ">
+                <div class="swiper swiper1 mt-6 mb-6">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide">
-                            <div class="group relative">
-                                <div
-                                    class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg"
-                                        alt="Hand stitched, orange leather long wallet."
-                                        class="w-full h-full object-center object-cover">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700 hover:text-purple-600">
-                                    <a href="#">
-                                        <span class="absolute inset-0"></span>
-                                        Leather Long Wallet
-                                    </a>
-                                </h3>
-                                <p class="mt-1 text-sm text-gray-500 ">Natural</p>
-                                <p class="mt-1 text-sm font-medium text-gray-900">$75</p>
-                            </div>
+                    <div class="swiper-wrapper px-4 pr-4 lg:px-0">
+                        <div class="swiper-slide ">
+                            <a href="https://google.com">
+                                <img src="images/index-col-3-1.jpg" alt="" title=""
+                                    class="w-full h-1/2 object-center object-cover hover:opacity-75 rounded-md">
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group relative">
-                                <div
-                                    class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg"
-                                        alt="Hand stitched, orange leather long wallet."
-                                        class="w-full h-full object-center object-cover">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700 hover:text-purple-600">
-                                    <a href="#">
-                                        <span class="absolute inset-0"></span>
-                                        Leather Long Wallet
-                                    </a>
-                                </h3>
-                                <p class="mt-1 text-sm text-gray-500 ">Natural</p>
-                                <p class="mt-1 text-sm font-medium text-gray-900 ">$75</p>
-                            </div>
+                            <a href="#">
+                                <img src="images/index-col-3-2.jpg" alt="" title=""
+                                    class="w-full h-1/2 object-center object-cover hover:opacity-75 rounded-md">
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <div class="group relative">
-                                <div
-                                    class="w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80">
-                                    <img src="https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg"
-                                        alt="Hand stitched, orange leather long wallet."
-                                        class="w-full h-full object-center object-cover">
-                                </div>
-                                <h3 class="mt-4 text-sm text-gray-700 hover:text-purple-600">
-                                    <a href="#">
-                                        <span class="absolute inset-0"></span>
-                                        Leather Long Wallet
-                                    </a>
-                                </h3>
-                                <p class="mt-1 text-sm text-gray-500">Natural</p>
-                                <p class="mt-1 text-sm font-medium text-gray-900">$75</p>
-                            </div>
+                            <a href="#">
+                                <img src="images/index-col-3-1.jpg" alt="" title=""
+                                    class="w-full h-1/2 object-center object-cover hover:opacity-75 rounded-md">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/index-col-3-2.jpg" alt="" title=""
+                                    class="w-full h-1/2 object-center object-cover hover:opacity-75 rounded-md">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/index-col-3-1.jpg" alt="" title=""
+                                    class="w-full h-1/2 object-center object-cover hover:opacity-75 rounded-md">
+                            </a>
                         </div>
                         <!-- More products... -->
                     </div>
@@ -84,70 +61,241 @@
 
 
                 <!-- If we need navigation buttons -->
-                <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
-                    <div class="flex justify-center items-center swiper-button-prev-customized z-50 absolute  left-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg  border border-gray-100">
-                        
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div class="px-4 hidden lg:flex items-center justify-between sm:px-6 lg:px-0">
+                    <div
+                        class="flex justify-center items-center swiper-button-prev-customized z-50 absolute  left-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg  border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                         </svg>
                     </div>
-                    <div class="flex justify-center items-center swiper-button-next-customized z-50 absolute  right-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg border border-gray-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <div
+                        class="flex justify-center items-center swiper-button-next-customized z-50 absolute  right-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-1/2 w-1/2 text-gray-600 text-gray" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- Image with text inside -->
+    <section class="img-with-text-inside">
+        <div class="py-4  lg:max-w-7xl lg:mx-auto lg:px-8 relative">
+            <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
+                <div>
+                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">世界各地精選伴手禮</h2>
+                    <h4 class="text-sm tracking-tight text-gray-500">一站品嚐世界各地精選伴手禮</h4>
+                </div>
+                <a href="#" class="hidden sm:block text-sm font-semibold text-indigo-600 hover:text-indigo-500">See
+                    everything<span aria-hidden="true"> &rarr;</span></a>
+            </div>
+            <!-- Slider main container -->
+            <div class="flex items-center">
+                <div class="swiper swiper2 mt-6 mb-6">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper px-4 pr-4 lg:px-0">
+                        <div class="swiper-slide ">
+                            <a href="https://google.com">
+                                <img src="images/img-with-text-inside-tw.jpg" alt="" title=""
+                                    class="w-full h-4/6 object-center object-cover hover:opacity-75 rounded-md">
+                                <div class="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b rounded-md from-black opacity-60 block"></div>
+                                <div class="absolute top-5 left-5 text-white">
+                                    <div class="text-xl font-extrabold">台灣</div>
+                                    <div>台灣嚴選伴手禮</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide ">
+                            <a href="https://google.com">
+                                <img src="images/img-with-text-inside-jp.jpg" alt="" title=""
+                                    class="w-full h-4/6 object-center object-cover hover:opacity-75 rounded-md">
+                                <div class="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b rounded-md from-black opacity-60 block"></div>
+                                <div class="absolute top-5 left-5 text-white">
+                                    <div class="text-xl font-extrabold">日本</div>
+                                    <div>日本最夯伴手禮</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            
+                        </div>
+                        
+                        <!-- More products... -->
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="px-4 hidden lg:flex items-center justify-between sm:px-6 lg:px-0">
+                    <div
+                        class="flex justify-center items-center swiper-button-prev-customized z-50 absolute  left-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg  border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </div>
+                    <div
+                        class="flex justify-center items-center swiper-button-next-customized z-50 absolute  right-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-1/2 w-1/2 text-gray-600 text-gray" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Image with text inside -->
+    <section class="grid-view-two-row">
+        <div class="py-4  lg:max-w-7xl lg:mx-auto lg:px-8 relative">
+            <div class="px-4 flex items-center justify-between sm:px-6 lg:px-0">
+                <div>
+                    <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">世界各地精選伴手禮</h2>
+                    <h4 class="text-sm tracking-tight text-gray-500">一站品嚐世界各地精選伴手禮</h4>
+                </div>
+                <a href="#" class="hidden sm:block text-sm font-semibold text-indigo-600 hover:text-indigo-500">See
+                    everything<span aria-hidden="true"> &rarr;</span></a>
+            </div>
+            <!-- Slider main container -->
+            <div class="flex items-center">
+                <div class="swiper swiper3 mt-6 mb-6">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper px-4 pr-4 lg:px-0">
+                        <div class="swiper-slide ">
+                            <a href="https://google.com">
+                                <img src="images/img-with-text-inside-tw.jpg" alt="" title=""
+                                    class="w-full h-4/6 object-center object-cover hover:opacity-75 rounded-md">
+                                <div class="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b rounded-md from-black opacity-60 block"></div>
+                                <div class="absolute top-5 left-5 text-white">
+                                    <div class="text-xl font-extrabold">台灣</div>
+                                    <div>台灣嚴選伴手禮</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide ">
+                            <a href="https://google.com">
+                                <img src="images/img-with-text-inside-jp.jpg" alt="" title=""
+                                    class="w-full h-4/6 object-center object-cover hover:opacity-75 rounded-md">
+                                <div class="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b rounded-md from-black opacity-60 block"></div>
+                                <div class="absolute top-5 left-5 text-white">
+                                    <div class="text-xl font-extrabold">日本</div>
+                                    <div>日本最夯伴手禮</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            
+                        </div>
+                        
+                        <!-- More products... -->
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="px-4 hidden lg:flex items-center justify-between sm:px-6 lg:px-0">
+                    <div
+                        class="flex justify-center items-center swiper-button-prev-customized z-50 absolute  left-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg  border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-1/2 w-1/2 text-gray-600" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </div>
+                    <div
+                        class="flex justify-center items-center swiper-button-next-customized z-50 absolute  right-0  h-12 w-12 rounded-full overflow-hidden bg-white shadow-md hover:shadow-lg border border-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-1/2 w-1/2 text-gray-600 text-gray" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- End Here -->
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            slidesPerView: 1,
+        const swiper1 = new Swiper('.swiper1', {
+            slidesPerView: 1.1,
             spaceBetween: 10,
             // Responsive breakpoints
             breakpoints: {
                 // when window width is >= 320px
-                320: {
-                    slidesPerView: 2,
-                    spaceBetween: 20
+                640: {
+                    slidesPerView: 2.1
+                },
+                768: {
+                    slidesPerView: 2.1
                 },
                 // when window width is >= 480px
-                480: {
-                    slidesPerView: 3,
-                    spaceBetween: 30
-                },
-                // when window width is >= 640px
-                640: {
-                    slidesPerView: 4,
-                    spaceBetween: 40
+                1024: {
+                    slidesPerView: 3
                 }
-            },
-            // Optional parameters
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
             },
 
             // Navigation arrows
             navigation: {
-                nextEl: '.swiper-button-next-customized',
-                prevEl: '.swiper-button-prev-customized',
+                nextEl: '.event .swiper-button-next-customized',
+                prevEl: '.event .swiper-button-prev-customized',
+            }
+        });
+
+        const swiper2 = new Swiper('.swiper2', {
+            slidesPerView: 1.1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                640: {
+                    slidesPerView: 2.1
+                },
+                768: {
+                    slidesPerView: 2.1
+                },
+                // when window width is >= 480px
+                1024: {
+                    slidesPerView: 3
+                }
             },
 
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.img-with-text-inside .swiper-button-next-customized',
+                prevEl: '.img-with-text-inside .swiper-button-prev-customized',
+            }           
         });
+
+        const swiper3 = new Swiper('.swiper3', {
+            slidesPerView: 1.1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                640: {
+                    slidesPerView: 2.1
+                },
+                768: {
+                    slidesPerView: 2.1
+                },
+                // when window width is >= 480px
+                1024: {
+                    slidesPerView: 3
+                }
+            },
+
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.grid-view-two-row .swiper-button-next-customized',
+                prevEl: '.grid-view-two-row .swiper-button-prev-customized',
+            }           
+        });
+
+        
     </script>
 
 </body>

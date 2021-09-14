@@ -19,3 +19,9 @@
 .btn_info {
     @apply bg-bootstrap_info text-white font-bold py-2 px-3 rounded cursor-pointer tracking-widest hover:bg-yellow-400;
 }
+.slide {
+    @apply w-full h-56 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 lg:h-72 xl:h-80
+}
+.swiper-button-disabled {
+    display: none;
+}
